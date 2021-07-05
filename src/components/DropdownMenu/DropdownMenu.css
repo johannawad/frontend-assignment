@@ -1,0 +1,20 @@
+.menu{
+    margin: 0 20px 20px 20px;
+    list-style-type: none;
+    border: 1px solid #ccc;
+    
+}
+
+.menu__item{
+    padding: 10px 10px;
+    color: grey;
+    border-top: 1px solid #ccc;
+}
+
+li:first-of-type {
+    border-top: none;
+}
+
+.menu__item__content {
+    display: flex;
+}

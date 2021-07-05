@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar renders correctly with items 1`] = `
+<div
+  className="menu"
+>
+  <li
+    className="menu__item"
+  >
+    <div
+      className="menu__item__content"
+    >
+      <div>
+        <b>
+          title
+        </b>
+        
+      </div>
+       (1)
+    </div>
+  </li>
+  <li
+    className="menu__item"
+  >
+    <div
+      className="menu__item__content"
+    >
+      <div>
+        <b>
+          title
+        </b>
+        
+      </div>
+       (1)
+    </div>
+  </li>
+</div>
+`;
+
+exports[`SearchBar renders correctly without any items 1`] = `
+<div
+  className="menu"
+/>
+`;
